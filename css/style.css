@@ -24,6 +24,7 @@ nav {
   list-style-type: none;
   text-align: center;
   color: #047A4A;
+  padding-left: 0;
 }
 
 .pagelist > li {
@@ -44,5 +45,30 @@ a:visited {
 
 .projects {
   margin: 1em auto;
-  display: center;
+  text-align: center;
+}
+
+.about-me-image {
+  width: 300px;
+  padding: 0 0.5em;
+}
+
+.nyt-image {
+  width: 300px;
+  padding: 0 0.5em;
+}
+
+.landing-page-image {
+  width: 300px;
+  padding: 0 0.5em;
+}
+
+/* Footer */
+
+footer {
+  background-color: #07346F;
+  color: #047A4A;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
