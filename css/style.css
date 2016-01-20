@@ -1,3 +1,48 @@
 body {
+  background-color: #047A4A;
+}
 
+/* Heading */
+
+nav {
+  background-color: #07346F;
+  color: #047A4A;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  }
+
+.topline {
+}
+
+.headline {
+  text-align: center;
+}
+
+.pagelist {
+  list-style-type: none;
+  text-align: center;
+  color: #047A4A;
+}
+
+.pagelist > li {
+  display: inline-block;
+  width: 33.33%;
+  float: left;
+}
+
+#resume {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+/* Projects Section */
+
+.projects {
+  margin: 1em auto;
+  display: center;
 }
