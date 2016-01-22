@@ -84,9 +84,10 @@ a:visited {
 /* Footer */
 
 footer {
-  background-color: #07346F;
-  color: #047A4A;
-  width: 100%;
+  background-color: #047A4A;
+  background-size: cover;
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow: hidden;
 }
