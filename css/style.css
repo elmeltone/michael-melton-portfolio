@@ -3,6 +3,7 @@ body {
   padding: 0;
   border: 0;
   color: white;
+  background-color: black;
 }
 
 a:link {
@@ -15,34 +16,32 @@ a:visited {
   color: white;
 }
 
+
 /* Heading */
 
 nav {
-  background-color: darkblue;
+  background-color: black;
   background-size: cover;
   margin: 0;
   padding: 0;
   width: 100%;
   overflow: hidden;
+  font-family: 'Vollkorn', serif;
   /*display: table;*/
   }
 
 .headline {
-  text-align: left;
+  text-align: center;
   margin: 0;
   padding: 5px;
   /*display: table-cell;*/
 }
 
 .profession {
-  padding: 0 0 0 5px;
+  padding: 0;
   margin: 0;
-  text-align: left;
-}
-
-ul {
-  margin: 5px 0;
-  padding: 5px;
+  text-align: center;
+  font-style: italic;
 }
 
 .pagelist {
@@ -50,12 +49,17 @@ ul {
   margin: 0 auto;
   padding: 0;
   min-width: 320px;
-  text-align: right;
+  text-align: center;
+}
+
+.pagelist ul {
+  margin: 5px 0;
+  padding: 5px;
 }
 
 .pagelist li {
   margin:0;
-  padding-left: 10px;
+  padding: 0 5px;
   list-style-type: none;
   display: inline-block;
   font-size: 16px;
@@ -67,8 +71,15 @@ ul {
 
 /* Text Section */
 
+.picture {
+  background-image: url('http://i.imgur.com/mJxBzcf.jpg');
+  background-size: 1400px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
 .text {
-  background-color: royalblue;
+
 }
 
 .description {
@@ -77,6 +88,10 @@ ul {
   margin: 0 auto;
   padding-top: 1em;
   padding-bottom: 1em;
+  border-width: 1px 0;
+  border-color: white;
+  font-family: 'Exo', sans-serif;
+  font-size: 14px;
 }
 
 /* Projects Section */
@@ -84,8 +99,6 @@ ul {
 .projects {
   margin: 0 auto;
   text-align: center;
-  background-color: royalblue;
-  background-size: cover;
   padding: 0;
   width: 100%;
   overflow: hidden;
@@ -109,7 +122,7 @@ ul {
 /* Footer */
 
 footer {
-  background-color: royalblue;
+  background-color: black;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -118,12 +131,15 @@ footer {
   text-align: center;
 }
 
-.social li {
-  display: inline-block;
-  padding: 5px 15px;
+.social {
+  margin: 5px;
+  padding: 0;
 }
 
 
+.social li {
+display: inline-block;
+padding: 5px 15px;
 
 
 
