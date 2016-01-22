@@ -129,6 +129,7 @@ footer {
   width: 100%;
   overflow: hidden;
   text-align: center;
+  font-family: 'Exo', sans-serif;
 }
 
 .social {
@@ -136,12 +137,16 @@ footer {
   padding: 0;
 }
 
-
 .social li {
 display: inline-block;
 padding: 5px 15px;
+}
 
-
+.copy {
+  font-size: 6px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
 
 
