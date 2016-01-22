@@ -2,84 +2,71 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  color: white;
-  background-color: black;
+  color: midnightblue;
+  background-color: lightsteelblue;
 }
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: midnightblue;
 }
 
 a:visited {
   text-decoration: none;
-  color: white;
+  color: midnightblue;
 }
 
 
 /* Heading */
 
 nav {
-  background-color: black;
+  background-color: lightsteelblue;
   background-size: cover;
   margin: 0;
   padding: 0;
   width: 100%;
   overflow: hidden;
   font-family: 'Vollkorn', serif;
+  text-align: center;
   /*display: table;*/
   }
 
 .headline {
-  text-align: center;
   margin: 0;
-  padding: 5px;
+  padding: 5px 5px 0 5px;
+  font-size: 36px;
   /*display: table-cell;*/
 }
 
 .profession {
   padding: 0;
-  margin: 0;
-  text-align: center;
+  margin: 0 0 15px 0;
   font-style: italic;
 }
 
-.pagelist {
-  /*display: table-cell;*/
-  margin: 0 auto;
+.social {
+  margin: 5px;
   padding: 0;
-  min-width: 320px;
-  text-align: center;
 }
 
-.pagelist ul {
-  margin: 5px 0;
-  padding: 5px;
-}
-
-.pagelist li {
-  margin:0;
-  padding: 0 5px;
-  list-style-type: none;
-  display: inline-block;
-  font-size: 16px;
-}
-
-#resume {
-  font-weight: bolder;
+.social li {
+display: inline-block;
+padding: 5px 15px 0 15px;
 }
 
 /* Text Section */
 
 .picture {
-  background-image: url('http://i.imgur.com/mJxBzcf.jpg');
-  background-size: 1400px;
-  background-position: center top;
+  background-image: url('http://i.imgur.com/aauLgtP.jpg');
+  background-size: 1850px;
+  background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+  min-height: 400px
 }
 .text {
-
+  color: midnightblue;
+  font-weight: bolder;
 }
 
 .description {
@@ -122,30 +109,37 @@ nav {
 /* Footer */
 
 footer {
-  background-color: black;
+  background-color: lightsteelblue;
   background-size: cover;
   margin: 0;
   padding: 0;
   width: 100%;
   overflow: hidden;
   text-align: center;
-  font-family: 'Exo', sans-serif;
+  font-family: 'Vollkorn', serif;
 }
 
-.social {
-  margin: 5px;
+.pagelist {
+  /*display: table-cell;*/
+  margin: 0 auto;
   padding: 0;
+  min-width: 320px;
+  text-align: center;
+  font-weight: bolder;
+  /*font-style: italic;*/
 }
 
-.social li {
-display: inline-block;
-padding: 5px 15px;
+.pagelist ul {
+  margin: 5px 0;
+  padding: 5px;
 }
 
-.copy {
-  font-size: 6px;
-  margin-bottom: 0;
-  padding-bottom: 0;
+.pagelist li {
+  margin:0;
+  padding: 0 10px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 
