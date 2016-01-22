@@ -1,36 +1,53 @@
 body {
-  background-color: #047A4A;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-
 /* Heading */
 
 nav {
-  background-color: #07346F;
-  color: #047A4A;
-  width: 100%;
+  background-color: #047A4A;
+  background-size: cover;
   margin: 0;
   padding: 0;
-
+  width: 100%;
+  overflow: hidden;
+  /*display: table;*/
   }
 
-.topline {
+.headline {
+  text-align: left;
+  margin: 0;
+  padding: 5px;
+  /*display: table-cell;*/
 }
 
-.headline {
-  text-align: center;
+.profession {
+  padding: 0 0 0 5px;
+  margin: 0;
+  text-align: left;
+}
+
+ul {
+  margin: 5px 0;
+  padding: 5px;
 }
 
 .pagelist {
-  list-style-type: none;
-  text-align: center;
+  /*display: table-cell;*/
+  margin: 0 auto;
+  padding: 0;
   color: #047A4A;
-  padding-left: 0;
+  min-width: 320px;
+  text-align: right;
 }
 
-.pagelist > li {
+.pagelist li {
+  margin:0;
+  padding-left: 10px;
+  list-style-type: none;
   display: inline-block;
-  width: 33.33%;
-  float: left;
+  font-size: 16px;
 }
 
 #resume {
@@ -46,6 +63,7 @@ a:visited {
 .projects {
   margin: 1em auto;
   text-align: center;
+  background-color: red;
 }
 
 .about-me-image {
